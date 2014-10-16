@@ -1,0 +1,75 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshTwo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shppandroid1.app.MainActivity">
+
+   
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        
+        <TextView
+	        android:id="@+id/titleOfArticle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Title"
+	        android:textSize="28sp" />
+         
+        <TextView
+	        android:id="@+id/authorOfArticle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Author"
+	        android:textSize="22sp" />
+         
+        <TextView
+	        android:id="@+id/DateOfCreation"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Date of creation"
+	        android:textSize="22sp" />
+        
+        <TextView
+	        android:id="@+id/softwareCategory"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="22sp" />
+        
+        <TextView
+	        android:id="@+id/developmentStage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="22sp" />
+        
+        <TextView
+	        android:id="@+id/typeOfSoftware"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:text="Content:"
+	        android:textSize="22sp" />
+        
+        <TextView
+	        android:id="@+id/contentOfArticle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="20sp" />
+         
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
